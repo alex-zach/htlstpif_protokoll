@@ -1,0 +1,43 @@
+% HTL St. Pölten, IF Vorlage
+\documentclass{htlstpif_protokoll}
+
+% Einstellungen von Name, ...
+\ptitle{Testtitel}
+
+% Begin des Documents
+\begin{document}
+
+  % Titelseite
+  \htlstpiftitlepage
+
+  % Inhaltsverzeichnis
+  \tableofcontents
+
+  % Theorieteil
+  \begin{theorie}
+    \section{Theorie 1}
+
+    % Text mit quellenangabe
+    Lorem ipsum\source{examplesrc}
+
+    % \arrow ist ein Pfeil
+    a \arrow b
+
+    % {titel}{pfad}{breite im verhältnis zur seitenbreite (0-1)}
+    \image{Bildunterschrift}{logo.png}{0.5}
+
+  \end{theorie}
+
+  % Praxisteil
+  \begin{praxis}
+    \section{Cisco code}
+
+    % Code Listing
+    \begin{code}
+Test1234
+    \end{code}
+  \end{praxis}
+
+  % Quellenverzeichnis (parameter ist bibtex-Dateiname ohne .bib)
+  \sources{example}
+\end{document}
