@@ -82,10 +82,16 @@
 % Listings
 \definecolor{backcolour}{rgb}{0.95,0.95,0.95}
 \definecolor{black}{rgb}{0,0,0}
+\definecolor{keywordcolour}{rgb}{0.007,0.19,0.98}
+\definecolor{commentcolor}{rgb}{0,0.53,0.09}
+\definecolor{strcolor}{rgb}{0.53,0.31,0}
 
 \lstdefinestyle{code}{
   backgroundcolor=\color{backcolour},
   basicstyle=\ttfamily\footnotesize,
+  keywordstyle=\color{keywordcolour},
+  commentstyle=\color{commentcolor},
+  stringstyle=\color{strcolor},
   breakatwhitespace=false,
   breaklines=true,
   captionpos=b,
@@ -137,3 +143,4 @@
     \caption{#1}
   \end{figure}
 }
+
