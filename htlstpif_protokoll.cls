@@ -4,7 +4,7 @@
 
 % Basis Layout
 \LoadClass{article}[12pt]
-\setlength{\parskip}{1.2\baselineskip}
+\setlength{\parskip}{0.7\baselineskip}
 \setlength{\parindent}{0pt}
 
 % Imports
