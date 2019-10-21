@@ -144,3 +144,16 @@
   \end{figure}
 }
 
+% Options
+\DeclareOption{titlepage}{%
+    \AtBeginDocument{%
+        \htlstpiftitlepage
+    }
+}
+\DeclareOption{toc}{%
+    \AtBeginDocument{%
+        \tableofcontents
+        \newpage
+    }
+}
+\ProcessOptions\relax
