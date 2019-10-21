@@ -4,6 +4,8 @@
 
 % Basis Layout
 \LoadClass{article}[12pt]
+\setlength{\parskip}{1.2\baselineskip}
+\setlength{\parindent}{0pt}
 
 % Imports
 \RequirePackage[utf8]{inputenc}
